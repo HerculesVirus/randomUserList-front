@@ -39,8 +39,8 @@ src/
 +-- components/ # Contains reusable React components
 |   +-- Spinner.jsx # Displays a loading spinner while fetching data
 |   +-- UserList.jsx # Displays the list of users and pagination controls
-+-- context/
-|   +-- UsersContext.jsx # Manages global user data and pagination state using useReducer and useContext
++-- hooks/
+|   +-- UsersContext.jsx # Custom hook to get the list of users
 +-- pages/
 |   +--UsersPage.jsx # Main page component to fetch and display users
 +-- App.jsx # Main App component, wraps the app with UsersProvider
