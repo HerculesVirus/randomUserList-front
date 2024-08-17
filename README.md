@@ -58,7 +58,7 @@ src/
 
 2. **Install Dependencies**:
     ```bash
-npm install
+    npm install
     
 3.**Running the Project**:
     
