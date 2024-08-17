@@ -62,5 +62,5 @@ src/
     
 3.**Running the Project**:
     
-```bash
-npm run dev
+    ```bash
+    npm run dev
