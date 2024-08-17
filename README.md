@@ -34,18 +34,18 @@ Currently, two official plugins are available:
 
 ## Project Structure
 
+```
 src/
-├── components/ # Contains reusable React components
-│ ├── Spinner.jsx # Displays a loading spinner while fetching data
-│ └── UserList.jsx # Displays the list of users and pagination controls
-├── context/
-│ └── UsersContext.jsx # Manages global user data and pagination state using useReducer and useContext
-├── pages/
-│ └── UsersPage.jsx # Main page component to fetch and display users
-├── styles/
-│ └── index.css # Tailwind CSS and other custom styles
-├── App.jsx # Main App component, wraps the app with UsersProvider
-└── main.jsx # Entry point for the React app
++-- components/ # Contains reusable React components
+|   +-- Spinner.jsx # Displays a loading spinner while fetching data
+|   +-- UserList.jsx # Displays the list of users and pagination controls
++-- context/
+|   +-- UsersContext.jsx # Manages global user data and pagination state using useReducer and useContext
++-- pages/
+|   +--UsersPage.jsx # Main page component to fetch and display users
++-- App.jsx # Main App component, wraps the app with UsersProvider
++-- main.jsx # Entry point for the React app
+```
 
 # Getting Started
 
